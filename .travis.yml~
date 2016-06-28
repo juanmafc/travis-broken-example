@@ -1,6 +1,9 @@
+dist: trusty
+
 install:
   - sudo pip install requests
-#language: php
+
+language: c++
 #php:
 #  - 5.5
 #script: phpunit Test.php
