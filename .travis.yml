@@ -34,4 +34,4 @@ script:
 #   - echo $PYTHONPATH
    - cd dummy
    - python ../prueba.py 
-   - python prueba.py
+#   - python prueba.py
