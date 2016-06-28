@@ -11,7 +11,6 @@ install:
    - sudo apt-get install  -y libssl-dev
    - sudo pip install pyopenssl ndg-httpsclient pyasn1
    - sudo pip install --upgrade ndg-httpsclient
-   - sudo -H pip install --upgrade requests
 #   - sudo -H pip install requests[security] 
 #  - pip install 'requests[security]'
 #  - sudo pip install 'requests[security]'
@@ -25,4 +24,5 @@ language: c++
 #script: phpunit Test.php
 
 script:
+   - sudo -H pip install --upgrade requests
    - python prueba.py
