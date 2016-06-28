@@ -30,6 +30,6 @@ script:
    - cd requests-2.10.0
    - sudo python setup.py install
    - cd ..
-   - export PYTHONPATH=$HOME/travis-broken-example/requests-2.10.0/requests
-   - echo $PYTHONPATH
+#   - export PYTHONPATH=$HOME/travis-broken-example/requests-2.10.0/requests
+#   - echo $PYTHONPATH
    - python prueba.py
