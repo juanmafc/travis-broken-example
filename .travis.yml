@@ -29,5 +29,6 @@ script:
 #   - sudo -H pip install --upgrade requests
    - cd requests-2.10.0
    - sudo python setup.py install
-#   - cd ..
+   - cd ..
+   #- PYTHONPATH=$PYTHONPATH:$HOME/travis-broken-example/requests-2.10.0
    - python prueba.py
