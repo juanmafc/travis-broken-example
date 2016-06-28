@@ -21,3 +21,6 @@ language: c++
 #php:
 #  - 5.5 
 #script: phpunit Test.php
+
+script:
+   - python prueba.py
