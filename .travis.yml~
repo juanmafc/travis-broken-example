@@ -6,7 +6,9 @@ python:
 
 install:
 #   - sudo pip install --upgrade pip
-   - pip -E v_env install -I requests
+   - sudo apt-get -y python-dev
+   - sudo apt-get -y libffi-dev
+   - sudo apt-get -y libssl-dev
    - sudo pip install requests[security] 
 #  - pip install 'requests[security]'
 #  - sudo pip install 'requests[security]'
