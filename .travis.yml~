@@ -2,7 +2,7 @@ sudo: required
 dist: trusty
 
 install:
-  - sudo -H pip install requests
+  - sudo -H pip install requests[security]
 
 language: c++
 #php:
