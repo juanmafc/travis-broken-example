@@ -25,5 +25,6 @@ language: c++
 
 script:  
 #   - sudo -H pip install --upgrade requests
-   - sudo python requests-2.10.0/setup.py install
+   - cd requests-2.10.0
+   - sudo python setup.py install
    - python prueba.py
