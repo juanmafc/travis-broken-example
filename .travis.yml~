@@ -11,6 +11,8 @@ sudo: required
 services:
   - docker
 
+language: ruby
+
 
 before_install:
 - docker pull juanmafc/appserver

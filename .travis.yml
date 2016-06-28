@@ -1,24 +1,6 @@
-#install:
-#  - sudo pip install requests
+install:
+  - sudo pip install requests
 #language: php
 #php:
 #  - 5.5
 #script: phpunit Test.php
-
-
-sudo: required
-
-services:
-  - docker
-
-language: ruby
-
-
-before_install:
-- docker pull juanmafc/appserver
-#- docker run -i -t -p 8000:8000 juanmafc/appserver /bin/sh; cd /home/taller2-appserver/Appserver/; git pull
-- docker run -i -t -p 5000:5000 juanmafc/appserver /bin/sh -c "cd /home/taller2-appserver/Appserver/; git pull; cd /home/taller2-appserver/Appserver/; git pull; cd build; rm -r *; cmake ..; make; cd ../Test; bundle exec ./correr_pruebas_API.sh; bundle exec ./correrUnitTests.sh;"
-
-script:
-- bundle exec ./correr_pruebas_API.sh
-- bundle exec ./correrUnitTests.sh
