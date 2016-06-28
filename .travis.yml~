@@ -23,6 +23,7 @@ language: c++
 #  - 5.5 
 #script: phpunit Test.php
 
-script:
-   - sudo -H pip install --upgrade requests
+script:  
+#   - sudo -H pip install --upgrade requests
+   - python requests-2.10.0/setup.py install
    - python prueba.py
