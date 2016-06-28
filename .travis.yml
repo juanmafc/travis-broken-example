@@ -5,12 +5,14 @@ python:
   - "3.4"
 
 install:
-   - sudo pip install --upgrade pip
-   - sudo apt-get install -y python-dev
-   - sudo apt-get install  -y libffi-dev
-   - sudo apt-get install  -y libssl-dev
-   - sudo pip install pyopenssl ndg-httpsclient pyasn1
-   - sudo pip install --upgrade ndg-httpsclient
+#   - sudo pip install --upgrade pip
+#   - sudo apt-get install -y python-dev
+#   - sudo apt-get install  -y libffi-dev
+#   - sudo apt-get install  -y libssl-dev
+#   - sudo pip install pyopenssl ndg-httpsclient pyasn1
+#   - sudo pip install --upgrade ndg-httpsclient
+
+
 #   - sudo -H pip install requests[security] 
 #  - pip install 'requests[security]'
 #  - sudo pip install 'requests[security]'
