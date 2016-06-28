@@ -3,9 +3,9 @@ dist: trusty
 
 install:
   - pip install requests[security] 
-  - pip install 'requests[security]'
-  - sudo pip install 'requests[security]'
-  - sudo -H pip install 'requests[security]'
+#  - pip install 'requests[security]'
+#  - sudo pip install 'requests[security]'
+#  - sudo -H pip install 'requests[security]'
 
 language: c++
 #php:
