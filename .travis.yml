@@ -17,7 +17,9 @@ install:
 #  - sudo pip install 'requests[security]'
 #   - sudo -H pip install 'requests[security]'
 
-language: c++
+#language: c++
+language: python
+
 #php:
 #  - 5.5 
 #script: phpunit Test.php
